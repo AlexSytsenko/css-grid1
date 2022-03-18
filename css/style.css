@@ -5,12 +5,18 @@
 }
 
 .grid-container {
-
+    display: grid;
+    width: 600px;
+    height: 600px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    outline: tomato solid 1px;
+    
 }
 
 .grid-elem {
-    height: 50px;
-    background-color: rgba(1, 1, 96, 1);
+    /*height: 50px;*/
+    background-color: rgb(2, 61, 36);
     color: #fff;
     line-height: 50px;
     text-align: center;
